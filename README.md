@@ -6,9 +6,9 @@ NB: when compared to the sudoku exercises, the arguments the function takes are 
 
 The board consists of the following strings:
 ```
--"": empty square
--"X": player 1 symbol
--"O": player 2 symbol
+*"": empty square
+*"X": player 1 symbol
+*"O": player 2 symbol
 ```
 The function should return True if the square was empty and the symbol was successfully placed on the game board. The function should return False if the square was occupied, or if the coordinates weren't valid.
 
